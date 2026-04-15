@@ -2,4 +2,9 @@
 name = "ai-recorder-transcriber"
 version = "0.1.0"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "numpy>=2.4.4",
+    "openai-whisper>=20250625",
+    "sounddevice>=0.5.5",
+    "soundfile>=0.13.1",
+]
